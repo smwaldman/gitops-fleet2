@@ -10,9 +10,8 @@
 name: New Hires
 policies:
   - path: ../lib/macos/policies/macos-device-health.policies.yml
-
 queries:
-  - path: ../lib/all/queries/collect-usb-devices.queries.ymll
+  - path: ../lib/all/queries/collect-usb-devices.queries.yml
 agent_options:
   path: ../lib/agent-options.yml
 controls:
