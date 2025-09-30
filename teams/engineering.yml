@@ -17,6 +17,9 @@ agent_options:
 controls:
   macos_settings:
     - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+  macos_updates:
+    deadline: "2025-10-10"
+    minimum_version: "16.0"
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
 team_settings:
