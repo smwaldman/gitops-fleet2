@@ -12,7 +12,7 @@ agent_options:
 controls: # This cannot be set here and in no-team.yml
 org_settings:
   fleet_desktop:
-    transparency_rul: https://catoftheday.com
+    transparency_url: https://catoftheday.com
   server_settings:
     server_url: $FLEET_URL
   org_info:
