@@ -11,7 +11,7 @@ agent_options:
   path: ./lib/agent-options.yml
 controls: # This cannot be set here and in no-team.yml
 org_settings:
-  fleet_desktop_settings:
+  fleet_desktop:
     transparency_rul: https://catoftheday.com
   server_settings:
     server_url: $FLEET_URL
