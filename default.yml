@@ -28,4 +28,4 @@ org_settings:
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
-      destination_url: https://www.helloworldcs.org/
+      destination_url: https://webhook.site/9eccdf92-c5bb-4081-a7a5-9d70391c225c
