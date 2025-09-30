@@ -15,6 +15,7 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
+  enable_disk_encryption: true
   macos_settings:
     custom_settings:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
@@ -32,6 +33,5 @@ team_settings:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
     enable_host_users: true
-    enable_software_inventory: true
+    enable_software_inventory: true 
 software:
-enable_disk_encryption: true
