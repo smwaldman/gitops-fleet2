@@ -27,5 +27,5 @@ org_settings:
     host_expiry_window: 30
   webhook_settings:
     activities_webhook:
-      enable_acitivities_webhook: true
+      enable_activities_webhook: true
       destination_url: https://www.helloworldcs.org/
